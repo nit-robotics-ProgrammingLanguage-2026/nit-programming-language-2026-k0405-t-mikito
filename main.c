@@ -9,11 +9,11 @@ int main(void) {
      これらの値すべてをdouble型として計算した計算結果のa(桁数指定なし)を表示するようなプログラムとせよ．
      */
     double r = 4.0;
-    double p = 3.14;
+    double p = 3.141592;
     double x;
     double a;
     scanf("%lf",&x);
-    a = (x * 360) / (2.0 * p * r);
+    a = (x * 360.0) / (2.0 * p * r);
     printf("%f\n", a);
 
     return 0;
