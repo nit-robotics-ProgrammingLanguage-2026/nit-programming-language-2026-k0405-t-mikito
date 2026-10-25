@@ -13,7 +13,7 @@ int main(void) {
     double x;
     double a;
     scanf("%lf",&x);
-    a = (x * 360.0) / (2.0 * p * r);
+    a = x * (360.0 / (2.0 * p * r));
     printf("%f\n", a);
 
     return 0;
